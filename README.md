@@ -4,6 +4,19 @@
 
 ---
 
+## 效果展示
+
+### 1. 字重谱系与整体风貌（可变字重 250–900）
+![字重谱系与整体风貌](./preview-overview.png)
+
+### 2. 行高修复机制与冒号居中对比
+![行高修复机制与冒号居中对比](./preview-metrics.png)
+
+### 3. One UI 手机实景模拟 & 静态双版本对照（Regular 400 vs W450）
+![One UI 实景模拟与静态双版本对照](./preview-specimen.png)
+
+---
+
 ## 为什么原版思源宋体在三星上行高异常？
 
 通过读取系统 `/system/etc/fonts.xml` 及内置字体（`OneUISans-VF.ttf`、`Roboto-Regular.ttf`、`Samsungsans.ttf`）对比发现，SamFonts 替换系统第 0 号主字体时，原版思源宋体存在 3 个问题：
